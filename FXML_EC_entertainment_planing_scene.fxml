@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="502.0" prefWidth="702.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="wedding_planner.FXML_EC_entertainment_planing_sceneController">
+   <children>
+      <Label layoutX="172.0" layoutY="30.0" prefHeight="39.0" prefWidth="358.0" text="Entertainment Planning and Scheduling" textFill="#270cd7">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="view_event_text_area" editable="false" layoutX="50.0" layoutY="117.0" prefHeight="316.0" prefWidth="263.0" />
+      <Label layoutX="50.0" layoutY="91.0" text="Upcoming wedding events:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="event_id_text_field" layoutX="357.0" layoutY="117.0" />
+      <Label layoutX="357.0" layoutY="91.0" text="Enter Event ID:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="planing_text_area" layoutX="357.0" layoutY="182.0" prefHeight="252.0" prefWidth="298.0" />
+      <Label layoutX="357.0" layoutY="158.0" text="Enter Event Planing and Scheduling:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="558.0" layoutY="452.0" mnemonicParsing="false" onAction="#OnClickSubmitButton" prefHeight="25.0" prefWidth="97.0" text="Submit" />
+      <Button layoutX="50.0" layoutY="451.0" mnemonicParsing="false" onAction="#OnClickBackButton" prefHeight="25.0" prefWidth="97.0" text="Back" />
+   </children>
+</AnchorPane>

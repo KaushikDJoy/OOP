@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="502.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wedding_planner.FXML_EC_home_sceneController">
+   <children>
+      <Label layoutX="168.0" layoutY="33.0" prefHeight="39.0" prefWidth="429.0" text="Entertainment Coordinastor Home Scene" textFill="#270cd7">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="247.0" layoutY="89.0" mnemonicParsing="false" onAction="#onClickEntertainmentPlaning" prefHeight="32.0" prefWidth="223.0" text="Entertainment Planning" />
+      <Button layoutX="247.0" layoutY="138.0" mnemonicParsing="false" onAction="#onClickHiringMusicians" prefHeight="32.0" prefWidth="223.0" text="Hiring Musicians" />
+      <Button layoutX="247.0" layoutY="189.0" mnemonicParsing="false" onAction="#onClickCoordinatingPerformers" prefHeight="32.0" prefWidth="223.0" text="Coordinating Performers" />
+      <Button layoutX="246.0" layoutY="241.0" mnemonicParsing="false" onAction="#onClickAudioVisualEquipment" prefHeight="32.0" prefWidth="223.0" text="Audio-Visual Equipment" />
+      <Button layoutX="246.0" layoutY="294.0" mnemonicParsing="false" onAction="#onClickEntertainmentBudgeting" prefHeight="32.0" prefWidth="223.0" text="Entertainment Budgeting" />
+      <Button layoutX="246.0" layoutY="439.0" mnemonicParsing="false" onAction="#onCLickLogoutButton" prefHeight="25.0" prefWidth="223.0" text="Log out" textFill="#f80e0e" />
+      <Button layoutX="247.0" layoutY="343.0" mnemonicParsing="false" onAction="#onClickGuestEngagementActivities" prefHeight="32.0" prefWidth="223.0" text="Guest Engagement Activities" />
+      <Button layoutX="247.0" layoutY="390.0" mnemonicParsing="false" onAction="#onClickViewGuestFeedback" prefHeight="32.0" prefWidth="223.0" text="View Guest Feedback" />
+   </children>
+</AnchorPane>
